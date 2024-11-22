@@ -1,6 +1,12 @@
+#include "inventory.h"
 #include <iostream>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    inventory inv;
+
+    string name = "apple";
+
+    inv.addProduct(name, 10);
+    inv.getProduct(name);
     return 0;
 }
