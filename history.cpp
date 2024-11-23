@@ -5,9 +5,8 @@ void history::addRecord(const string& record){
 }
 
 void history::showHistory(){
-    cout << "Historial de registros" << endl;
-
-    for(auto& record:records){
+    cout << "Historial de operaciones" << endl;
+    for(auto record : records){
         cout << record << endl; //Mostrar cada registro
     }
 }
